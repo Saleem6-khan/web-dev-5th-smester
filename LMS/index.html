@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- we will be creating the design if LMS system using html and css -->
+    <!-- we will be creating the design of LMS system using html and css -->
      <header>
         <nav class="nav-bar">
             <div class="logo">
@@ -16,12 +16,12 @@
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Courses</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="About_us.html">About</a></li>
+                <li><a href="contact_us.html">Contact</a></li>
             </ul>
             <div class="auth-buttons">
-                <button class="login-btn">Login</button>
-                <button class="signup-btn">Sign Up</button>
+                <button class="login-btn" onclick="window.location.href='login.html'">Login</button>
+                <button class="signup-btn" onclick="window.location.href='signup.html'">Sign Up</button>
             </div>
         </nav>
      </header>
@@ -35,13 +35,13 @@
                 <section class="live-class">
                 <h2>Live Class</h2>
                 <div class="class-info">
-                <button class="join-class-btn">Join Class</button>
+                <button onclick="window.location.href='live_class.html'" class="join-class-btn">Join Class</button>
                 </div>
             </section>
             <section class="recorded-class">
                 <h2>Recorded Class</h2>
                 <div class="recorded-info">
-                    <button class="view-recorded-btn">View Recorded Classes</button>
+                    <button onclick="window.location.href='recorded_class.html'" class="view-recorded-btn">View Recorded Classes</button>
                 </div>
             </section>
             </div>
@@ -71,6 +71,6 @@
         
             
     
-            
+<script src="app.js"></script>    
 </body>
 </html>
