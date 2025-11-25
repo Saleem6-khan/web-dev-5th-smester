@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul class="nav-links">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="About_us.php">About</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="contact_us.php">Contact</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <button onclick="window.location.href='login.php'">Login</button>
+            <button onclick="window.location.href='signup.php'">Sign Up</button>
+        </div>
+
+    </nav>
+    <div class="login-container">
+        <h2>Login to Your Account</h2>
+        <form class="login-form">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="login-btn">Login</button>
+        </form>
+        <div class="signup-link">
+            <p>Don't have an account? <a href="signup.php">Sign Up</a></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
